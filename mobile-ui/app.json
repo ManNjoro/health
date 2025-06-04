@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Baby steps",
+    "slug": "baby-steps",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./app/assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A1A1A"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#1A1A1A"
+      },
+      "package": "com.mannjoro.babysteps"
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a85760af-c08d-40a9-86ba-385b56496a11"
+      }
+    },
+    "owner": "mannjoro",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a85760af-c08d-40a9-86ba-385b56496a11"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}
